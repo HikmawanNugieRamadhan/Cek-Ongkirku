@@ -1,6 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes walk {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  41% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-walk {
+  animation: walk 2s ease-in-out forwards;
+}
+
 html {
   scroll-behavior: smooth;
 }
+

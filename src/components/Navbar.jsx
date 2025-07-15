@@ -11,7 +11,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-8 h-8"
           />
-          <h1 className="text-xl font-bold text-indigo-600">
+          <h1 className="text-xl font-bold text-indigo-600 select-none">
             Cek Ongkirku
           </h1>
         </div>

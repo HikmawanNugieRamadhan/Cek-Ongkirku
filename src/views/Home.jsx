@@ -72,7 +72,7 @@ const Home = () => {
       <Landing />
       <main id="form" className="bg-slate-50 min-h-screen px-4 sm:px-6 py-10">
         <div className="max-w-4xl mx-auto bg-white shadow-md rounded-2xl p-6 sm:p-10">
-          <header className="mb-8 flex items-center gap-3">
+          <header className="mb-4 flex items-center gap-3">
             <img src="./assets/logos/box.svg" alt="box icon" className="w-6 h-6" />
             <h1 className="text-2xl font-bold text-indigo-700">Cek Ongkir Multi Tujuan</h1>
           </header>
@@ -116,7 +116,7 @@ const Home = () => {
             </ul>
           )}
 
-          <section className="mb-6 grid sm:grid-cols-2 gap-4">
+          <section className="mb-6 grid sm:grid-cols-2 gap-2">
             <div>
               <label className="block text-sm mb-0 text-slate-600"></label>
               <CourierSelect onChange={setCourier} />
