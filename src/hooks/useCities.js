@@ -1,4 +1,3 @@
-// src/hooks/useCities.js
 import { useQuery } from '@tanstack/react-query';
 import { getCities } from '../api/rajaongkir';
 
